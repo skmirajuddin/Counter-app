@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    flex-direction: column;
+    width: 50%;
+}
+
+button{
+    padding: 5px 10px;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+span{
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+#decrement{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+#increment{
+    background-color: rgba(99, 245, 66, 0.3);
+}
+#value{
+    background-color: rgba(245, 242, 66, 0.3);
+}
+#reset{
+    background-color: rgba(66, 102, 245, 0.3);
+}
